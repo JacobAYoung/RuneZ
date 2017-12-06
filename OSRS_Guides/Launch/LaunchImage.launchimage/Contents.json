@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "filename" : "papers.co-sk89-blue-old-ipad-background-blur-gradation-34-iphone6-plus-wallpaper.jpg",
+      "minimum-system-version" : "7.0",
+      "subtype" : "retina4",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
