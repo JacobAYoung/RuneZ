@@ -1,0 +1,7 @@
+Quests:
+Animal Magnetism: 1,000 experience
+Big Chompy Bird Hunting: 260 experience
+Zogre Flesh Eaters: 2,000 experience
+Temple of Ikov: 8,000 experience
+Fremennik Trials: 2,813 experience
+Devious Minds: 5,000 experience

@@ -1,0 +1,11 @@
+1-15 normal logs
+15-30 oak logs
+30-35 willow logs
+35-45 teak logs
+45-50 maple logs
+50-60 mahogany logs
+60-75 yew logs
+75-90 magic logs
+90-99 redwood logs
+
+50-99 wintertodt

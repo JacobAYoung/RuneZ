@@ -1,0 +1,14 @@
+1-7 Leather gloves
+requirements: Needle, thread, leather
+7-46 Gold Bracelet
+requirements: gold bar, bracelet mould
+46-54/99 unpowered orbs
+requirements: glassblowing pipe, molten glass
+54-63/99 water battlestaff
+requirements: battlestaff, water orb
+63-71/99 green d'hide bodies
+requirements: needle, thread, 3x green dragon leather
+71-99 blue d'hide bodies
+requirements: needle, thread, 3x blue dragon leather
+84-99 black d'hide bodies
+requirements: needle, thread, 3x black dragon leather

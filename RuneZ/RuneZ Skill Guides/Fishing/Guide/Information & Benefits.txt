@@ -1,0 +1,11 @@
+Quests:
+Fishing Contest - 2,437 Fishing experience
+Heroes Quest - 2,725 Fishing experience
+The Fremennik Trials - 2,812 Fishing experience
+Tai Bwo Wannai Trio - 5,000 Fishing experience
+Rum Deal - 7,000 Fishing experience
+Sea Slug - 7,175 Fishing experience
+Swan Song - 10,000 Fishing experience
+Recipe for Disaster - Rescuing Pirate Pete - 1,000 Fishing experience
+
+The higher the level, the higher % of catching the fish

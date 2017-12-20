@@ -1,0 +1,11 @@
+1-25 iron arrows
+25-35 oak longbows
+35-40 willow shortbows
+40-50 willow longbows
+50-55 maple longbows
+55-65 maple longbows
+70-80/99 yew longbows
+80-85 magic shortbows
+85-99 magic longbows
+52-99 broad arrows
+55-99 broad bolts
