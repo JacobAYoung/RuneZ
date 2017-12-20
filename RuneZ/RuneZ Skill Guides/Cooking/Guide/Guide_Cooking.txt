@@ -1,0 +1,8 @@
+1-15 Shrimp
+15-25 Trout
+25-35 Salmon
+35-50 Tuna
+50-75 Lobster
+75-85 SwordFish
+85-99 Sharks
+35/90-99 Jug of wine

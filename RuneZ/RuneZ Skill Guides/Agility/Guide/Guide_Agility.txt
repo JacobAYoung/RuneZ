@@ -1,0 +1,14 @@
+1-10 Gnome Stronghold Agility Course
+10-20 Draynor Village Rooftop Agility Course
+20-30 Al Kharid Rooftop Agility Course
+30-40 Varrock Rooftop Agility Course
+40-52 Canifis Rooftop Agility Course
+52-60 Falador Rooftop Agility Course
+----------(With Kandarin Diary)----------
+60-90 Seers Rooftop Agility Course
+----------(WithOUT Kandarin Diary)----------
+60-70 Seers Rooftop Agility Course
+70-80 Pollnivneach Rooftop Agility Course
+80-90 Rellekka Rooftop Agility Course
+----------------------------------------
+90-99 Ardougne Rooftop Agility Course
