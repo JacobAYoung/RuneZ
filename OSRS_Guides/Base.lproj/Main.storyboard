@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hgD-Vc-TOh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hgD-Vc-TOh">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -70,9 +70,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xc-zY-ADT">
                                 <rect key="frame" x="16" y="36" width="378" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <state key="normal" title="Skills">
                                     <color key="titleColor" red="1" green="0.90635850267913742" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JnM-1Q-O2d" appends="YES" id="idY-BU-PV0"/>
+                                    <segue destination="UdR-bk-aSH" kind="showDetail" id="dZD-Db-iJi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb1-nE-ueh">
                                 <rect key="frame" x="16" y="195" width="378" height="161"/>
@@ -101,8 +106,31 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MER-04-bCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="JnM-1Q-O2d"/>
             </objects>
             <point key="canvasLocation" x="1565.217391304348" y="184.23913043478262"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CFv-aP-B1s">
+            <objects>
+                <viewController id="UdR-bk-aSH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kxx-ac-AjU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="rOr-fW-reh"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6zy-9T-4Sv" appends="YES" id="I2B-j6-RJq"/>
+                            <outletCollection property="gestureRecognizers" destination="Omr-WH-Dgc" appends="YES" id="Ee4-gK-6RU"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aoc-df-nxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="6zy-9T-4Sv"/>
+                <swipeGestureRecognizer direction="right" id="Omr-WH-Dgc"/>
+            </objects>
+            <point key="canvasLocation" x="2307" y="184"/>
         </scene>
     </scenes>
     <resources>
