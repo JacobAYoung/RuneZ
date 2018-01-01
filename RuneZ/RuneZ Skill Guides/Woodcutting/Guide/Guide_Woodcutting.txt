@@ -1,0 +1,12 @@
+Fast exp
+1-15 regular trees
+15-31 oak trees
+31-65 willow trees
+65-99 teak trees
+
+profit and exp
+1-15 regular trees
+15-40 oak trees
+40-75 willow trees
+75-90 yew trees
+90-99 redwood trees

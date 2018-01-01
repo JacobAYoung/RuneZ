@@ -1,0 +1,12 @@
+Quests:
+Druidic Ritual - 250 experience.
+Jungle Potion - 775 experience.
+Recruitment Drive - 1,000 experience. Requires 12 Quest Points.
+Heroes' Quest - 1,325 experience. Requires 55 Quest Points, 25 Herblore, 53 Cooking, 53 Fishing and 50 Mining.
+The Digsite - 2,000 experience. Requires 10 Agility, 10 Herblore and 25 Thieving.
+Shades of Mort'ton - 2,000 experience. Requires 20 Crafting, 15 Herblore and 5 Firemaking.
+Zogre Flesh Eaters - 2,000 experience. Requires 8 Herblore, 4 Smithing and 30 Ranged.
+Fairytale II - Cure a Queen - 3,500 experience. Requires 57 Herblore, 40 Thieving and 49 Farming.
+Grim Tales - 5,000 experience. Requires 52 Herblore, 45 Farming, 58 Thieving, 59 Agility and 71 Woodcutting.
+My Arm's Big Adventure - 10,000 experience. Requires 10 Woodcutting and 29 Farming.
+Eadgar's Ruse - 11,000 experience. Requires 31 Herblore.

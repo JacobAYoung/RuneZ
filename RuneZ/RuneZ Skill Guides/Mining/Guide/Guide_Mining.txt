@@ -1,0 +1,6 @@
+1-15 Copper ore/tin ore
+15-75/80 iron ore
+80-99 granite
+30-75/99 motherlode mine
+61-75 gemstone method
+75-99 blast mining
