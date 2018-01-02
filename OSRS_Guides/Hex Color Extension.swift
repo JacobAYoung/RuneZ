@@ -2,7 +2,7 @@
 //  Hex Color Extension.swift
 //  OSRS_Guides
 //
-//  Created by Zach Galloway on 12/31/17.
+//  Created by Zach Galloway on 12/31/17
 //  Copyright © 2017 Jake Young. All rights reserved.
 //
 
