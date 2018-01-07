@@ -2,7 +2,7 @@
 25-35 oak longbows
 35-40 willow shortbows
 40-50 willow longbows
-50-55 maple longbows
+50-55 maple shortbows
 55-65 maple longbows
 70-80/99 yew longbows
 80-85 magic shortbows
