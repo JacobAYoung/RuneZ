@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hgD-Vc-TOh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SA8-yV-3Qx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,60 +10,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="runescape_uf.ttf">
+        <array key="runescape_uf.otf">
             <string>RuneScape-UF</string>
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NC4-oJ-QWc">
-                                <rect key="frame" x="0.0" y="0.0" width="378" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Oi-tQ-I2r">
-                                        <rect key="frame" x="0.0" y="0.0" width="378" height="667"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="DoB-4K-1rU">
-                                            <rect key="frame" x="0.0" y="72" width="378" height="38"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <string key="text">WoodCutting is a basic skill jjhgkgkhkhghkghghjkghjkghjgjghjghjghjghjgjhghjghjghjghjghjghjghjghjghjghjghjghghghghjghjghjghjghjghjghjghjghghjkfgjkfgfghfghfghffjghjfghjfghjfhjgfghjfghjfghj</string>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        </textView>
-                                        <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="i4c-uw-xT7">
-                                                <rect key="frame" x="0.0" y="28" width="378" height="44"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i4c-uw-xT7" id="rST-Sj-R98">
-                                                    <rect key="frame" x="0.0" y="0.0" width="378" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                        </prototypes>
-                                    </tableView>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-326" y="125"/>
-        </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="ojT-uw-5VT">
             <objects>
-                <viewController id="hgD-Vc-TOh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hgD-Vc-TOh" customClass="HomeViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3KB-Fg-eqA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,21 +27,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiF-x2-Np4">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="cy8-Vj-bLm"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16b-Of-5qc" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="B2j-Qg-YQh" userLabel="RuneZ Logo">
                                 <rect key="frame" x="67" y="92" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -118,7 +58,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UdR-bk-aSH" kind="showDetail" id="n7Z-yq-YEn"/>
+                                    <segue destination="UdR-bk-aSH" kind="show" id="QeY-pH-0k5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Guides" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3S8-Ce-oAR">
@@ -161,16 +101,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mnn-0t-6UO"/>
                     </view>
+                    <navigationItem key="navigationItem" id="q6f-hS-PCS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MER-04-bCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="JnM-1Q-O2d"/>
             </objects>
-            <point key="canvasLocation" x="1564" y="183.95802098950526"/>
+            <point key="canvasLocation" x="1903.2" y="183.95802098950526"/>
         </scene>
-        <!--View Controller-->
+        <!--Skill Guides-->
         <scene sceneID="CFv-aP-B1s">
             <objects>
-                <viewController id="UdR-bk-aSH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SkillGuidesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UdR-bk-aSH" customClass="SkillGuidesViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kxx-ac-AjU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,21 +120,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTb-Av-0za">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="CMM-Ho-f6Y"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dT-RH-7ct" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yoj-a8-S0I" userLabel="Favorites Button">
                                 <rect key="frame" x="31" y="113" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -203,7 +129,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EAN-ZX-oPw" kind="presentation" id="1YR-pE-C1x"/>
+                                    <segue destination="EAN-ZX-oPw" kind="show" id="CLw-La-Tgd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5H-5S-OL3" userLabel="Favorites Button">
@@ -215,7 +141,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="V2r-pW-CLI" kind="presentation" id="aaB-nv-6TI"/>
+                                    <segue destination="V2r-pW-CLI" kind="show" id="op0-2L-kvS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Firemaking" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tF-SO-a1H" userLabel="Favorites Text">
@@ -234,7 +160,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9LW-yX-F7T" kind="presentation" id="hc0-cZ-eVJ"/>
+                                    <segue destination="9LW-yX-F7T" kind="show" id="7LQ-j9-zKx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yh7-Cp-sUK" userLabel="Favorites Button">
@@ -246,7 +172,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hQP-kD-Sj0" kind="presentation" id="LLn-pT-t9Y"/>
+                                    <segue destination="hQP-kD-Sj0" kind="show" id="pn9-sQ-N2Q"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fletching" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQl-4r-Sj6" userLabel="Favorites Text">
@@ -265,7 +191,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Tfn-8r-VGl" kind="presentation" id="shA-0Q-UrI"/>
+                                    <segue destination="Tfn-8r-VGl" kind="show" id="8iw-IZ-cC7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fishing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DU-eo-3kj" userLabel="Favorites Text">
@@ -289,13 +215,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Guides" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SF5-W3-W4m">
-                                <rect key="frame" x="148" y="31" width="80" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -305,18 +224,18 @@
                             <outletCollection property="gestureRecognizers" destination="Omr-WH-Dgc" appends="YES" id="Ee4-gK-6RU"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="Wjd-IG-UTI"/>
+                    <navigationItem key="navigationItem" title="Skill Guides" id="Wjd-IG-UTI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aoc-df-nxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="6zy-9T-4Sv"/>
                 <swipeGestureRecognizer direction="right" id="Omr-WH-Dgc"/>
             </objects>
-            <point key="canvasLocation" x="2440.8000000000002" y="183.95802098950526"/>
+            <point key="canvasLocation" x="2780" y="183.95802098950526"/>
         </scene>
-        <!--View Controller-->
+        <!--Cooking-->
         <scene sceneID="h6i-HF-HMA">
             <objects>
-                <viewController id="EAN-ZX-oPw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CookingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EAN-ZX-oPw" customClass="CookingViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oeM-0F-Ans">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -325,21 +244,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3K-29-mjV">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="exQ-2d-lLm"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnA-cB-cya" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyT-Hp-GWh" userLabel="Favorites Button">
                                 <rect key="frame" x="31" y="113" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -420,13 +324,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cooking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-gH-lUj">
-                                <rect key="frame" x="159" y="31" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -436,18 +333,18 @@
                             <outletCollection property="gestureRecognizers" destination="e6F-VH-qIU" appends="YES" id="Wx0-LK-1qY"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="3Hd-zH-SU5"/>
+                    <navigationItem key="navigationItem" title="Cooking" id="3Hd-zH-SU5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qfo-Qa-jxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="zWj-Va-afD"/>
                 <swipeGestureRecognizer direction="right" id="e6F-VH-qIU"/>
             </objects>
-            <point key="canvasLocation" x="3376.8000000000002" y="-1263.4182908545729"/>
+            <point key="canvasLocation" x="3737" y="-1263"/>
         </scene>
-        <!--View Controller-->
+        <!--Fishing-->
         <scene sceneID="vKh-af-ZtH">
             <objects>
-                <viewController id="Tfn-8r-VGl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FishingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tfn-8r-VGl" customClass="FishingViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ukj-k6-qft">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -456,21 +353,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ct-J2-r1H">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="25v-h5-YMt"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMk-pH-Ajg" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENd-0a-577" userLabel="Favorites Button">
                                 <rect key="frame" x="31" y="113" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -551,13 +433,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fishing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdM-mR-Idv">
-                                <rect key="frame" x="161" y="31" width="52" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -567,18 +442,18 @@
                             <outletCollection property="gestureRecognizers" destination="SKV-Gl-fOr" appends="YES" id="7a9-H2-6oF"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="W0u-Nl-D9B"/>
+                    <navigationItem key="navigationItem" title="Fishing" id="W0u-Nl-D9B"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36d-zy-U7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="dUT-Rt-pMf"/>
                 <swipeGestureRecognizer direction="right" id="SKV-Gl-fOr"/>
             </objects>
-            <point key="canvasLocation" x="3376.8000000000002" y="-548.27586206896558"/>
+            <point key="canvasLocation" x="3737" y="-544"/>
         </scene>
-        <!--View Controller-->
+        <!--Fletching-->
         <scene sceneID="YSv-Iw-Dr7">
             <objects>
-                <viewController id="hQP-kD-Sj0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FletchingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hQP-kD-Sj0" customClass="FletchingViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SRP-9V-ZYZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -587,21 +462,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyh-Oj-EAe">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="rgf-5I-EAd"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAs-Of-Qho" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQd-2N-9Lc" userLabel="Favorites Button">
                                 <rect key="frame" x="31" y="113" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -682,13 +542,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fletching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wM9-in-3nn">
-                                <rect key="frame" x="154" y="31" width="67" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -698,18 +551,18 @@
                             <outletCollection property="gestureRecognizers" destination="fvE-yC-UVI" appends="YES" id="y43-9h-8Cm"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="k6G-qK-0xu"/>
+                    <navigationItem key="navigationItem" title="Fletching" id="k6G-qK-0xu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yrb-LR-Daf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="um1-Oy-Kei"/>
                 <swipeGestureRecognizer direction="right" id="fvE-yC-UVI"/>
             </objects>
-            <point key="canvasLocation" x="3376.8000000000002" y="183.95802098950526"/>
+            <point key="canvasLocation" x="3737" y="184"/>
         </scene>
-        <!--View Controller-->
+        <!--Firemaking-->
         <scene sceneID="RDx-lW-v5E">
             <objects>
-                <viewController id="V2r-pW-CLI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FiremakingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="V2r-pW-CLI" customClass="FiremakingViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5U8-7g-Ily">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -718,21 +571,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09f-TO-4m6">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="9H4-pe-St9"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWq-yp-2Sa" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bH-Qf-hOn" userLabel="Favorites Button">
                                 <rect key="frame" x="31" y="113" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -813,13 +651,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Firemaking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agw-Bo-g1X">
-                                <rect key="frame" x="148" y="31" width="80" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -829,18 +660,18 @@
                             <outletCollection property="gestureRecognizers" destination="pRy-GP-nuG" appends="YES" id="sUk-2t-ZFN"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="CdT-Ds-tYI"/>
+                    <navigationItem key="navigationItem" title="Firemaking" id="CdT-Ds-tYI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQV-hW-xu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="AcX-7z-bWx"/>
                 <swipeGestureRecognizer direction="right" id="pRy-GP-nuG"/>
             </objects>
-            <point key="canvasLocation" x="3377" y="958"/>
+            <point key="canvasLocation" x="3737" y="956"/>
         </scene>
-        <!--View Controller-->
+        <!--Woodcutting-->
         <scene sceneID="JDO-i8-gRR">
             <objects>
-                <viewController id="9LW-yX-F7T" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WoodcuttingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9LW-yX-F7T" customClass="WoodcuttingViewController" customModule="OSRS_Guides" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zTQ-Tv-zLV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -849,21 +680,6 @@
                                 <rect key="frame" x="-19" y="0.0" width="413" height="729"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZR-P8-uOR">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="qJ3-Bv-dhG"/>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9S1-n9-orC" userLabel="Level Indicator Text">
-                                <rect key="frame" x="291" y="32" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJC-wx-tAy" userLabel="Favorites Button">
                                 <rect key="frame" x="31" y="113" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -944,13 +760,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Woodcutting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEA-bc-BRa">
-                                <rect key="frame" x="141" y="31" width="93" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="20"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -960,13 +769,37 @@
                             <outletCollection property="gestureRecognizers" destination="2Sc-dT-01z" appends="YES" id="uzH-qD-Dtr"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="BN1-vk-1QC"/>
+                    <navigationItem key="navigationItem" title="Woodcutting" id="BN1-vk-1QC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BPw-go-hCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="6Mp-KR-vMe"/>
                 <swipeGestureRecognizer direction="right" id="2Sc-dT-01z"/>
             </objects>
-            <point key="canvasLocation" x="3377" y="1667"/>
+            <point key="canvasLocation" x="3737" y="1674"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BwG-sM-CA6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SA8-yV-3Qx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sMz-9T-zdn">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="RuneScape-UF" family="RuneScape UF" pointSize="24"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hgD-Vc-TOh" kind="relationship" relationship="rootViewController" id="wb9-7b-2OR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uFW-Kw-gGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="184"/>
         </scene>
     </scenes>
     <resources>

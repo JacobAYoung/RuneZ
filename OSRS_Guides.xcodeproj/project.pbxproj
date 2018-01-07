@@ -14,15 +14,19 @@
 		2366F6051FD8ABB400275463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2366F6031FD8ABB400275463 /* LaunchScreen.storyboard */; };
 		2366F6101FD8ABB400275463 /* OSRS_GuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F60F1FD8ABB400275463 /* OSRS_GuidesTests.swift */; };
 		2366F61B1FD8ABB400275463 /* OSRS_GuidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F61A1FD8ABB400275463 /* OSRS_GuidesUITests.swift */; };
-		A85D1E281FF973B70090F6C2 /* runescape_uf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A85D1E271FF973B60090F6C2 /* runescape_uf.ttf */; };
-		A85D1E291FF973B70090F6C2 /* runescape_uf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A85D1E271FF973B60090F6C2 /* runescape_uf.ttf */; };
-		A85D1E2A1FF973B70090F6C2 /* runescape_uf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A85D1E271FF973B60090F6C2 /* runescape_uf.ttf */; };
+		A8226E402001C16100E1CE47 /* runescape_uf.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8226E3F2001C16100E1CE47 /* runescape_uf.otf */; };
 		A85D1E2C1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */; };
 		A85D1E2D1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */; };
 		A85D1E2E1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */; };
 		A85D1E301FF9AB230090F6C2 /* SkillGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2F1FF9AB230090F6C2 /* SkillGuidesViewController.swift */; };
 		A85D1E311FF9AB230090F6C2 /* SkillGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2F1FF9AB230090F6C2 /* SkillGuidesViewController.swift */; };
 		A85D1E321FF9AB230090F6C2 /* SkillGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2F1FF9AB230090F6C2 /* SkillGuidesViewController.swift */; };
+		A8BB21BB200296C300D9CEA9 /* ViewControllerFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB21BA200296C300D9CEA9 /* ViewControllerFuncs.swift */; };
+		A8BB21BD2002981900D9CEA9 /* CookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB21BC2002981900D9CEA9 /* CookingViewController.swift */; };
+		A8BB21BF2002982800D9CEA9 /* FishingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB21BE2002982800D9CEA9 /* FishingViewController.swift */; };
+		A8BB21C12002983B00D9CEA9 /* FletchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB21C02002983B00D9CEA9 /* FletchingViewController.swift */; };
+		A8BB21C32002984700D9CEA9 /* FiremakingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB21C22002984700D9CEA9 /* FiremakingViewController.swift */; };
+		A8BB21C52002985300D9CEA9 /* WoodcuttingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB21C42002985300D9CEA9 /* WoodcuttingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +60,15 @@
 		2366F6161FD8ABB400275463 /* OSRS_GuidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSRS_GuidesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2366F61A1FD8ABB400275463 /* OSRS_GuidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSRS_GuidesUITests.swift; sourceTree = "<group>"; };
 		2366F61C1FD8ABB500275463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A85D1E271FF973B60090F6C2 /* runescape_uf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = runescape_uf.ttf; path = ../../runescape_uf.ttf; sourceTree = "<group>"; };
+		A8226E3F2001C16100E1CE47 /* runescape_uf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = runescape_uf.otf; path = ../../../.Trash/runescape_uf.otf; sourceTree = "<group>"; };
 		A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex Color Extension.swift"; sourceTree = "<group>"; };
 		A85D1E2F1FF9AB230090F6C2 /* SkillGuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillGuidesViewController.swift; sourceTree = "<group>"; };
+		A8BB21BA200296C300D9CEA9 /* ViewControllerFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFuncs.swift; sourceTree = "<group>"; };
+		A8BB21BC2002981900D9CEA9 /* CookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingViewController.swift; sourceTree = "<group>"; };
+		A8BB21BE2002982800D9CEA9 /* FishingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingViewController.swift; sourceTree = "<group>"; };
+		A8BB21C02002983B00D9CEA9 /* FletchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FletchingViewController.swift; sourceTree = "<group>"; };
+		A8BB21C22002984700D9CEA9 /* FiremakingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiremakingViewController.swift; sourceTree = "<group>"; };
+		A8BB21C42002985300D9CEA9 /* WoodcuttingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodcuttingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +120,20 @@
 			isa = PBXGroup;
 			children = (
 				2366F5FA1FD8ABB400275463 /* AppDelegate.swift */,
-				2366F6031FD8ABB400275463 /* LaunchScreen.storyboard */,
 				2366F5FC1FD8ABB400275463 /* HomeViewController.swift */,
 				A85D1E2F1FF9AB230090F6C2 /* SkillGuidesViewController.swift */,
+				A8BB21BC2002981900D9CEA9 /* CookingViewController.swift */,
+				A8BB21BE2002982800D9CEA9 /* FishingViewController.swift */,
+				A8BB21C02002983B00D9CEA9 /* FletchingViewController.swift */,
+				A8BB21C22002984700D9CEA9 /* FiremakingViewController.swift */,
+				A8BB21C42002985300D9CEA9 /* WoodcuttingViewController.swift */,
+				A8BB21BA200296C300D9CEA9 /* ViewControllerFuncs.swift */,
+				A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */,
+				2366F6031FD8ABB400275463 /* LaunchScreen.storyboard */,
 				2366F5FE1FD8ABB400275463 /* Main.storyboard */,
+				A8226E3F2001C16100E1CE47 /* runescape_uf.otf */,
 				2366F6011FD8ABB400275463 /* Assets.xcassets */,
 				2366F6061FD8ABB400275463 /* Info.plist */,
-				A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */,
-				A85D1E271FF973B60090F6C2 /* runescape_uf.ttf */,
 			);
 			path = OSRS_Guides;
 			sourceTree = "<group>";
@@ -247,10 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85D1E281FF973B70090F6C2 /* runescape_uf.ttf in Resources */,
 				2366F6051FD8ABB400275463 /* LaunchScreen.storyboard in Resources */,
 				2366F6021FD8ABB400275463 /* Assets.xcassets in Resources */,
 				2366F6001FD8ABB400275463 /* Main.storyboard in Resources */,
+				A8226E402001C16100E1CE47 /* runescape_uf.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85D1E291FF973B70090F6C2 /* runescape_uf.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85D1E2A1FF973B70090F6C2 /* runescape_uf.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A85D1E2C1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */,
+				A8BB21BD2002981900D9CEA9 /* CookingViewController.swift in Sources */,
+				A8BB21BB200296C300D9CEA9 /* ViewControllerFuncs.swift in Sources */,
+				A8BB21C32002984700D9CEA9 /* FiremakingViewController.swift in Sources */,
+				A8BB21C52002985300D9CEA9 /* WoodcuttingViewController.swift in Sources */,
+				A8BB21C12002983B00D9CEA9 /* FletchingViewController.swift in Sources */,
+				A8BB21BF2002982800D9CEA9 /* FishingViewController.swift in Sources */,
 				A85D1E301FF9AB230090F6C2 /* SkillGuidesViewController.swift in Sources */,
 				2366F5FD1FD8ABB400275463 /* HomeViewController.swift in Sources */,
 				2366F5FB1FD8ABB400275463 /* AppDelegate.swift in Sources */,
