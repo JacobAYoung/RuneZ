@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2331DE8A201705F30055501B /* runescape_uf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2331DE89201705F30055501B /* runescape_uf.otf */; };
 		2366F5FB1FD8ABB400275463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F5FA1FD8ABB400275463 /* AppDelegate.swift */; };
 		2366F5FD1FD8ABB400275463 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F5FC1FD8ABB400275463 /* HomeViewController.swift */; };
 		2366F6001FD8ABB400275463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2366F5FE1FD8ABB400275463 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		2366F6051FD8ABB400275463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2366F6031FD8ABB400275463 /* LaunchScreen.storyboard */; };
 		2366F6101FD8ABB400275463 /* OSRS_GuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F60F1FD8ABB400275463 /* OSRS_GuidesTests.swift */; };
 		2366F61B1FD8ABB400275463 /* OSRS_GuidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F61A1FD8ABB400275463 /* OSRS_GuidesUITests.swift */; };
-		A8226E402001C16100E1CE47 /* runescape_uf.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8226E3F2001C16100E1CE47 /* runescape_uf.otf */; };
 		A85D1E2C1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */; };
 		A85D1E2D1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */; };
 		A85D1E2E1FF99ADE0090F6C2 /* Hex Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */; };
@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2331DE89201705F30055501B /* runescape_uf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = runescape_uf.otf; path = ../../../Downloads/runescape_uf.otf; sourceTree = "<group>"; };
 		2366F5F71FD8ABB400275463 /* OSRS_Guides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSRS_Guides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2366F5FA1FD8ABB400275463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2366F5FC1FD8ABB400275463 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		2366F6161FD8ABB400275463 /* OSRS_GuidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSRS_GuidesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2366F61A1FD8ABB400275463 /* OSRS_GuidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSRS_GuidesUITests.swift; sourceTree = "<group>"; };
 		2366F61C1FD8ABB500275463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8226E3F2001C16100E1CE47 /* runescape_uf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = runescape_uf.otf; path = ../../../.Trash/runescape_uf.otf; sourceTree = "<group>"; };
 		A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex Color Extension.swift"; sourceTree = "<group>"; };
 		A85D1E2F1FF9AB230090F6C2 /* SkillGuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillGuidesViewController.swift; sourceTree = "<group>"; };
 		A8BB21BA200296C300D9CEA9 /* ViewControllerFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFuncs.swift; sourceTree = "<group>"; };
@@ -130,8 +130,8 @@
 				A8BB21BA200296C300D9CEA9 /* ViewControllerFuncs.swift */,
 				A85D1E2B1FF99ADE0090F6C2 /* Hex Color Extension.swift */,
 				2366F6031FD8ABB400275463 /* LaunchScreen.storyboard */,
+				2331DE89201705F30055501B /* runescape_uf.otf */,
 				2366F5FE1FD8ABB400275463 /* Main.storyboard */,
-				A8226E3F2001C16100E1CE47 /* runescape_uf.otf */,
 				2366F6011FD8ABB400275463 /* Assets.xcassets */,
 				2366F6061FD8ABB400275463 /* Info.plist */,
 			);
@@ -266,7 +266,7 @@
 				2366F6051FD8ABB400275463 /* LaunchScreen.storyboard in Resources */,
 				2366F6021FD8ABB400275463 /* Assets.xcassets in Resources */,
 				2366F6001FD8ABB400275463 /* Main.storyboard in Resources */,
-				A8226E402001C16100E1CE47 /* runescape_uf.otf in Resources */,
+				2331DE8A201705F30055501B /* runescape_uf.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
